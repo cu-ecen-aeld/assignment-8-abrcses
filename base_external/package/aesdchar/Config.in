@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_AESDCHAR
+	bool "aesdchar"
+	help
+	  Simple character driver which can handle write and read, storing the data in a circular buffer.
